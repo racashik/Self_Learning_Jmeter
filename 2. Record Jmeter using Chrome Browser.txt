@@ -1,0 +1,28 @@
+*********** Record Jmeter on Chrome Browser ***********
+
+-> Install a plugin called "BlazeMeter extension" on Chrome Browser
+	Can download through this link: https://chrome.google.com/webstore/detail/blazemeter-the-load-testi/mbopgmdnpcbohhpnfglgohlbhfongabi?hl=en
+-> Sign up to this extension and get log in
+
+
+Here we will practice this website: https://blazedemo.com/
+
+
+***** Steps to record *****
+-> Open the website on Chrome browser
+-> Open the "BlazeMeter extension" and "Enter a name of the test"
+-> Press "Start Recording" 
+-> Browse the website, select option and go to next pages
+-> Stop recording once performance are done on the website. Can also Pause any step by clicking Pause Button
+-> Open the Extension and "Save" the record file in "JMX" formate
+
+
+***** Steps to Import in Jmeter *****
+-> Go to Jmeter
+-> File menue --> Open --> Select the downloaded "JMX" file and open
+
+
+
+
+
+

@@ -1,0 +1,25 @@
+********* Use Http Cookie Manager to capture sessions ***********
+
+In general, after running the Jmeter test, we can't be confirm by seen the "Green icon" that the test are passed.
+We can get confirm after checking the request send and receive response body text.
+
+Jmeter do not save Cookies with the request as the Browser does so we need to add "HTTP cookie Manager"
+
+********* Way to add Cookie Manager **********
+First will record a browser test by "BlazeMeter extension" on the following link.
+Start recording by loding the url on a new tab. (Open a browser new tab, start recording then paste the Url and perform)
+https://the-internet.herokuapp.com/login
+
+
+-> Download the save project and Inport to the Jmeter.
+-> Add a listener "View Results Tree" to check the result.
+-> Add "HTTP Cookie Manager"  (Add -> Congif Element -> HTTP Cookie Manager)
+-> Run and see the result in the Listener's response body.
+
+
+To check the difference, how cookie manager works and whats happen if do not save session cookies.
+First Run the test first without the "HTTP Cookie Manager" and then add it and run again.
+Now check the difference in the response body.
+
+
+

@@ -1,0 +1,27 @@
+********* Advanced Thread Group Methods by using Jmeter plugins ***********
+
+To Manage Jmeter plugin from the Jmeter tool, have ti install the "Plugins Manager" first.
+Plugin Manager "JAR file" download link: https://jmeter-plugins.org/wiki/PluginsManager/
+
+-> Download the Plugins Manager JAR file and put it into JMeter's lib/ext directory. 
+-> Then start JMeter and go to "Options" menu to access the Plugins Manager.
+-> Go to "Available Plugins"	--> Select "Custom Thread Groups" 	--> Apply changes and Restart JMeter
+
+Now the Plugin will be added.
+
+Here we will mostly use 2 "Thread Group"
+1. Concurrency Thread Group
+2. Ultimate Thread Group
+
+-------------------------------------------------------------------------------------------------------------
+
+
+********* Features of "Concurrency Thread Group" & "Ultimate Thread Group" *********
+In both Thread Group, we have a graph that shows how we are configuring the Thread group
+
+
+
+
+
+
+

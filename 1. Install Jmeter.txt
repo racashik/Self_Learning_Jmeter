@@ -1,0 +1,14 @@
+Download the Jmeter "Zip" file.
+Unzip the file and open it.
+Go to the "Bin" folder and open the "ApacheJMeter.jar" file.
+
+It do not need to install like the other software. Everytime open Jmeter by clicking "ApacheJMeter.jar"
+
+N.B: Do not delete the "Apache Jemeter" file cause whole file need everytime to open it.
+
+
+N.B: We can only make & run 1 project on "Jmeter" at a time, so if need to make another project, have to 
+clear the existing one and make the new one. 
+
+
+

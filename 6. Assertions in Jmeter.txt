@@ -1,0 +1,20 @@
+********** Assertion in Jmeter ***********
+We can add "Response Assertion" to check following details:
+1. Test Response
+2. Response Code
+3. Response Headers
+4. URL Sampled and so on.
+
+
+Can see  at a glance all Assertion result aby adding "Assertion Results" option in the Thread Group
+which available in the "Listener" option.
+
+------------------------------------------------------------------------------------------------------------
+
+We can add "Size Assertion" to check following details:
+1. Can check the file size by using comparison sign
+
+
+We can add "Duration Assertion" to check following details:
+1. Can assert "Load time"
+

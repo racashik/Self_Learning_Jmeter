@@ -1,0 +1,61 @@
+*********** First create a Test script using "BlazeMeter extension", Download & Inport to Jmeter *************
+Use this website: https://blazedemo.com/
+
+------------------------------------------------------------------------------------------------------------
+
+
+In Jmeter "Thread Group" define as a User, where we can metion how many user will test the system at a time.
+********* Features of "Thread Group " **********
+
+Number of Threads(Users): 50	(Here mention how many user will browse the server/system/website)
+Ramp-up period (Seconds): 5	(Here mention how much time will take to visit the server. i.e: Here 50 user will visit the system in 5 sec so in 1 Sec, 10 user will visit)
+Loop Count		: 2	(Here mention how many loop will run the execution. i.e: here used 2, so first time 50 user will visit then again 50 will visit)
+
+------------------------------------------------------------------------------------------------------------
+
+
+*********** Add "Listener" to see the test result **********
+Most common Listener are 3:
+1. View Results Tree
+2. Aggregate Report
+3. Graph Results
+
+
+-> Add all common Listener into the "Thread Group' we created above. 	(Must create the listener in the "Thread Group"
+-> Run the Thread group
+
+N.B: Before test a script with large user, always wun with 1 user to get confirmed Test Script is ok.
+Here Defining "Test Script" is the Export file code that get by using the "BlazeMeter extension".
+The code we write manually in the Jmeter, those are also the "Test Script"
+
+-------------------------------------------------------------------------------------------------------------
+
+
+******** Data what we get from "Aggregate Report" Listener ************
+Label:		Path OR url.
+Samples:	Number of user hit on the url.
+Average:	The average time taken by all the samples to execute specific label (It's in Mili Second).
+Median:		It is the time in the middle of a set of samples result. (Mostly do not use this value).
+90% Line:	90% of the samples took no more than this time.
+95% Line:	95% of the samples took no more than this time.
+Min:		Minimum time taken for the execution.
+Maximum:	Maximum time taken for the execution.
+Error %:	Fail percentage of the hit/execute.
+Throughput:	It the number of request that processed per time unit by the server. 
+		Largr Throughput is better. 
+		i.e: 72.3/Sec it means, per second it get execute 72.3 number of request.
+Received KB/Sec:
+Sent KB/Sec:
+
+-------------------------------------------------------------------------------------------------------------
+
+
+******** Data what we get from "Graph Results" Listener ************
+
+Deviation:	Deviation Shouldn't increase for a better report. It should be steady or decreased. Should be below of Average.
+Throughput: 	Through shouldn't decreased for a better report. It should be increased.
+Average:	The average should be above of the Deviation.
+
+
+
+
